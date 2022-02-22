@@ -1,1 +1,1 @@
-web: gunicorn poll.wsgis
+web: gunicorn poll.wsgi
