@@ -5,6 +5,6 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/srijanmalhotra2711/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/srijanmalhotra2711/swe1-app?branch=main)
 
-Individual Assignment 2 -- Srijan Malhotra
+## Individual Assignment 2 -- Srijan Malhotra
 
-Heroku Deployement - https://swe1-sm9439.herokuapp.com/polls/
+## Heroku Deployement - https://swe1-sm9439.herokuapp.com/polls/
