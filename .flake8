@@ -4,4 +4,4 @@ exclude =
     .git,
     _pycache_,
     env,
-    venv,
+    venv
