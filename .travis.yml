@@ -1,22 +1,19 @@
 language: python
-
 python:
-  - 3.9
-
+        - "3.8"
 install:
-  - pip install -r requirements.txt
-  - pip install black
-  - pip install flake8
-  - pip install coverage
+        - pip3 install -r requirements.txt
+        - pip install black
+        - pip install flake8
+        - pip install coverage
 
 before_script:
-  - python manage.py migrate
-  - python manage.py collectstatic --noinput
-
+        - python manage.py migrate
+        - python manage.py collectstatic --noinput
 script:
-  - black --check .
-  - flake8 --check .
-  - coverage run --source=polls manage.py test
-
+        - black .
+        - black --check .
+        - flake8 .
+        - coverage run --source=polls manage.py test
 after_script:
-  - coveralls
+        - coveralls
